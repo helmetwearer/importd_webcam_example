@@ -1,0 +1,6 @@
+/static/media/*
+.pydevproject
+.DS_Store
+secret.txt
+db.sqlite
+*.pyc

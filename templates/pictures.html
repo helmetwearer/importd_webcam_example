@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>getUserMedia importd demo</title>
+	<meta name="author" content="Daniel Petrikin"/>
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<div class="container">
+	<header>
+		<div class="page-header">
+		  <h1>Uploaded Pictures</h1>
+		</div>
+	</header>
+	
+	{% for picture in pictures %}
+	<div class="row">
+	  <div class="col-lg-6">
+	  		<img src="static/media/images/{{picture}}"/>
+	  </div>
+	     
+	</div>
+	{% endfor %}
+	 
+	    
+</div>
+
+<footer>&copy; PyDojoLLC 2014</footer>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
