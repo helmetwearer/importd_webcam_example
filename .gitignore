@@ -1,4 +1,4 @@
-/static/media/*
+/static/media/images/*.jpg
 .pydevproject
 .DS_Store
 secret.txt
